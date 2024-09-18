@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Il Tuo Plugin",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Clicca per spostare le schede"
+  }
+}
